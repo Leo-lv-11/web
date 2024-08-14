@@ -1,0 +1,134 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background-color: #F5EFd7/* Color de fondo */
+}
+
+header{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+h1 {
+  color: #2A333E; /* Color de título */
+  display: flex; /* Centrar título horizontal y verticalmente */
+  justify-content: center; /* Centrar título horizontalmente */
+  align-items: center; /* Centrar título verticalmente */
+  padding: 18px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+#formulario {
+  background-color: #4371BC; /* Color de formulario */
+  padding: 18px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main  .label{
+  color: white;
+}
+#nombre {
+  padding: 9px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#agregar {
+  background-color: #36527d; /* Color de botón agregar */
+  color: #fff;
+  border: none;
+  padding: 9px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+#agregar:hover {
+  background-color: #5091FB; /* Color de botón agregar hover */
+}
+
+#lista-asistencia {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#lista-asistencia li {
+  padding: 9px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#lista-asistencia li:last-child {
+  border-bottom: none;
+}
+
+.nombre {
+  font-weight: bold;
+  color: #2A333E; /* Color de nombre */
+  margin-right: 10px;
+}
+
+.asistencia {
+  font-size: 14px;
+  color: #666; /* Color de asistencia */
+  margin-right: 10px;
+}
+
+.borrar {
+  background-color: #E74C3C; /* Color de botón borrar */
+  color: #fff;
+  border: none;
+  padding: 4px 9px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.borrar:hover {
+  background-color: #C0392B; /* Color de botón borrar hover */
+}
+
+#exportar {
+  background-color: #36527d; /* Color de botón exportar */
+  color: #fff;
+  border: none;
+  padding: 9px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#exportar:hover {
+  background-color: #5091FB; /* Color de botón exportar hover */
+}
